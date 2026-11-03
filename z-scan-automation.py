@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 # import searborn as sns
 
-material_name ='kamal_ZnO-rGO_ 0'
+material_name ='kamal_SnO2-rGO_ 0'
 sample= '90 mW'
 light = '650 nm green laser'
 aperture = 'linear transmission'
