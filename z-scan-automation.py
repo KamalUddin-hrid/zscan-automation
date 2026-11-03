@@ -1,15 +1,15 @@
 import pyvisa
 from ThorlabsPM100 import ThorlabsPM100
-from zaber_motion import Units
-from zaber_motion.ascii import Connection
+from kamal_motion import Units
+from kamal_motion.ascii import Connection
 import time
 import matplotlib.pyplot as plt
 import pandas as pd
 # import searborn as sns
 
-material_name ='Saif_V205_Flake_03112026_open 0'
+material_name ='kamal_ZnO-rGO_ 0'
 sample= '90 mW'
-light = '525 nm green laser'
+light = '650 nm green laser'
 aperture = 'linear transmission'
 
 #RANGE : the range of the motion in mm
